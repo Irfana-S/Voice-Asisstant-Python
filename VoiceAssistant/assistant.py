@@ -30,7 +30,7 @@ def listen():
         return ""
 
 # Greeting
-speak("Hello, ayisha I am your voice assistant")
+speak("Hello, I am your voice assistant")
 
 # Main loop
 while True:
@@ -69,3 +69,4 @@ while True:
     elif "exit" in command or "stop" in command:
         speak("Goodbye")
         break
+
